@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="image/images.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <meta property="og:image" content="image/share.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <title>Kalkulator walut</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class="js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Kalkulator walut</legend>
+                <p>
+                    <label>
+                        <span class="form__labelText">Podaj kwotę:* (PLN)</span>
+                        <input type="number" class="form__field js-amount" min="0" step="0.01" name="value"
+                            placeholder="Wpisz kwotę w zł" required>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">Wybierz walutę:</span>
+                        <select class=" form__field form__field--select js-currency" name="currency">
+                            <option value="EUR">EUR - Euro</option>
+                            <option value="USD">USD - Dolar</option>
+                            <option value="GPB">GPB - Funt brytyjski</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">Wynik:</span>
+                        <input class="form__field js-result" name="value" readonly>
+                    </label>
+                </p>
+                <p>
+                    * - pole wymagane
+                </p>
+                <p>
+                    <button class="form__button js-button">Przelicz</button>
+                </p>
+                <p>
+                    <button type="reset" class="form__button js-reset" name="value">Wyczyść</button>
+                </p>
+                <p>
+                    Kurs z dnia: 21.01.23
+                </p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+
+</html>
