@@ -8,7 +8,7 @@ Welcome to my currency calculator making during Frontend Developer course on You
 
 https://matrixek.github.io/currency-convertor/
 
-[![zrzut-ekranu-1.png](https://i.postimg.cc/prG7Wky3/zrzut-ekranu-1.png)](https://postimg.cc/vxnXXrrv)
+[![zrzut-ekranu-1.png](https://i.postimg.cc/L6S0KHGM/Bez-tytu-u.png)
 
 ## About my page
 ---
